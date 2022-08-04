@@ -1,0 +1,36 @@
+/* @NOTE loading a custom font */
+@font-face {
+    font-family: Saira;
+    src: url("fonts/Saira-Regular.ttf");
+}
+
+body {
+    background-color: #383838;
+}
+
+.text {
+    color: white;
+    font-family: Saira;
+    text-align: center;
+    font-size: 3em;
+}
+
+#img-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.poke-img {
+    width: 300px;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hovered-poke {
+    border: 2px solid red;
+    box-shadow: 5px 5px 5px black;
+    padding: 5px;
+}

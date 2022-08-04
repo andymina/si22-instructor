@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- @TODO link JS with defer -->
+    <script src="main.js" defer></script>
+
+    <title>Choose a starter!</title>
+</head>
+<body>
+    <h1 class="text">Pick a starter!</h1>
+
+    <div id="img-container">
+        <!-- @NOTE all images have id of their name -->
+        <img
+            src="images/bulbasaur.png"
+            id="bulbasaur"
+            class="poke-img"
+        />
+
+        <img
+            src="images/squirtle.png"
+            id="squirtle"
+            class="poke-img"
+        />
+
+        <img
+            src="images/charmander.png"
+            id="charmander"
+            class="poke-img"
+        />
+    </div>
+
+    <!-- @NOTE when you select a pokemon, the result will show here -->
+    <h1 id="poke-text" class="text"></h1>
+
+    <!-- @NOTE these buttons will add/remove pikachu from the starter list -->
+    <div id="btn-container">
+        <button id="add-pika" class="btn">Add Pikachu</button>
+        <button id="rmv-pika" class="btn">Remove Pikachu</button>
+    </div>    
+</body>
+</html>
