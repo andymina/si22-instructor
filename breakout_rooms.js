@@ -5,7 +5,7 @@ let html_students = [
     "Michael", "Jawad", "Mahak", "Jason",
     "Maximo", "Andy", "Mahib", "Hurera",
     "Mesbahur", "Aman", "Kurren", "James",
-    "Myles", "Jiming"
+    "Myles", "Jiming", "Kaleb"
 ];
 
 let js_students = [
