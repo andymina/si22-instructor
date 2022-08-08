@@ -1,0 +1,4 @@
+[submodule "week4/day4/json-code-along"]
+	path = week4/day4/json-code-along
+	url = git@github.com:ChaoticTeal/json-code-along.git
+	branch = solution
