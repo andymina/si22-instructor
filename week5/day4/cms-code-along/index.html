@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- @NOTE linking our CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- @NOTE initializing firebase -->
+    <script defer src="init-firebase.js"></script>
+
+    <!-- @NOTE link our main.js AFTER we load initialize firebase -->
+    <script defer src="main.js"></script>
+
+    <title>Demo CMS</title>
+</head>
+<body>
+    <h1 id="title">Pokemon Trainers!</h1>
+    <section id="landing">
+            <!--
+                @NOTE notice the ids of each element correspond with their sister element
+                on the actual webpage. this is gonna allow for some creative code.
+
+                specifically, the title, desc, and img elements.
+            -->
+            <div id="img-container">
+                <img id="hero-img" src="images/ash.png"/>
+            </div>        
+
+            <div id="text-container">
+                <h1 id="hero-title">Ash Ketchum</h1>
+
+                <hr id="hero-divider"/>
+                
+                <h3 id="hero-desc">A trainer from Pallet Town, aspiring to become a Pokémon Master, Ash Ketchum is a main character of the Pokémon Anime.</h3>
+                
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

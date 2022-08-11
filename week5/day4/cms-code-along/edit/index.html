@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- @NOTE linking our CSS -->
+    <link rel="stylesheet" href="edit.css"/>
+
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- @NOTE initializing firebase -->
+    <script defer src="../init-firebase.js"></script>
+
+    <script defer src="edit.js"></script>
+    <title>Admin CMS</title>
+</head>
+<body>
+    <form>
+        <h1>CMS Admin</h1>
+
+        <!--
+            @NOTE notice the ids of each element correspond with their sister element
+            on the actual webpage. this is gonna allow for some creative code.
+        -->
+        <div class="input-container">
+            <label>Hero Title</label>
+            <input
+                type="text"
+                id="hero-title"
+            />
+        </div>
+
+        <div class="input-container">
+            <label>Hero Desc</label>
+            <input
+                type="text"
+                id="hero-desc"
+            />
+        </div>
+
+        <div class="input-container">
+            <label>Hero Image URL</label>
+            <input
+                type="url"
+                id="hero-img"
+            />
+        </div>
+
+        <button id="save-btn">Save Changes</button>
+    </form>
+</body>
+</html>

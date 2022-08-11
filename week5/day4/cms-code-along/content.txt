@@ -1,0 +1,11 @@
+TITLE: Ash Ketchum
+DESC: A trainer from Pallet Town, aspiring to become a Pokémon Master, Ash Ketchum is a main character of the Pokémon Anime.
+IMAGE: https://github.com/andymina/instructor-cms/blob/main/images/ash.png?raw=true
+
+TITLE: Brock Harrison
+DESC: Brock is originally the Gym Leader of Pewter City Gym but he decided to follow his dream to become the greatest Pokémon Breeder.
+IMAGE: https://github.com/andymina/instructor-cms/blob/main/images/brock.png?raw=true
+
+TITLE: Misty Williams
+DESC: She is currently the Cerulean City Gym Leader, a position she took over from her older sisters.
+IMAGE: https://github.com/andymina/instructor-cms/blob/main/images/misty.png?raw=true

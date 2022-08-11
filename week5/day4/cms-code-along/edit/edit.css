@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+}
+
+.input-container label {
+    font-size: 4vh;
+}
+
+.input-container input {
+    width: 30vw;
+    height: 3vh;
+    font-size: 2vh;
+}
+
+#save-btn {
+    width: 50vw;
+    height: 5vh;
+}
+
+h1 {
+    font-size: 6vh;
+}
